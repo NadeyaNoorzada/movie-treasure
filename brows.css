@@ -1,0 +1,69 @@
+nav{
+    background-image: linear-gradient(#222831,#31363F);
+    width: 90%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    margin: 0%;
+}
+nav ul{
+    float: right;
+    margin: 0;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color:white ;
+    text-decoration: none;
+
+}
+nav li a:hover{
+   color: aqua;
+   
+}
+nav .movie {
+    height: 0px;
+    width: 200px;
+    margin: 0;
+}
+nav p{
+    font-size: 30px;
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.fullmovie{
+    height: 100%;
+    width: 100%;
+}
+iframe{
+    width: 1400px;
+    height: 988px;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #31363F;
+    width: 100%;
+    height: 40px;
+}
+.divfo{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+
+}
